@@ -32,3 +32,7 @@ Route::get('/blog', BlogComponent::class)->name('blog');
 Route::get('/single', SingleComponent::class)->name('single');
 Route::get('/contact', ContactComponent::class)->name('contact');
 
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
