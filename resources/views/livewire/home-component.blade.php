@@ -685,7 +685,7 @@
 					<a class="btn btn-outline-primary mt-2 px-3" href="">Read More <i class="fa fa-angle-right"></i></a>
 				</div>
 				<div class="col-lg-6 mb-5 blog-item">
-					<img class="img-fluid mb-4" src="img/blog-2.jpg" alt="Image">
+					<img class="img-fluid mb-4" src="{{ asset('assets/img/blog-2.jpg') }}" alt="Image">
 					<div class="d-flex align-items-center mb-4">
 						<div class="d-flex flex-column align-items-center justify-content-center rounded-circle bg-primary text-white" style="width: 80px; height: 80px;">
 							<small>01</small>
